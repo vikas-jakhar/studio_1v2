@@ -10,6 +10,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url(./assets/image/webp/hero_bg.png)",
+        'btn': "url(./assets/image/webp/button_bg.png)",
       },
       container: {
         center: true,
@@ -22,6 +23,9 @@ module.exports = {
           lg: "1048px",
           xl: "1164px",
         },
+      },
+      transitionTimingFunction: {
+        'slow': "all 300ms linear",
       },
     },
   },
