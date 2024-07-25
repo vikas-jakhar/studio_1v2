@@ -65,7 +65,7 @@ const ImageSlider = () => {
     ];
 
     return (
-        <div className='bg-black py-6 -mt-1'>
+        <div className='bg-black pt-6 -mt-1 relative z-[1]'>
             <div className=" mt-1 py-9 bg-light_black">
                 <Slider {...sliderSettings}>
                     {images.map((image, index) => (

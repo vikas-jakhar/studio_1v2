@@ -15,6 +15,6 @@ export const Button = ({ buttonName, buttonClass }) => {
 
 export const Heading = ({ HeadingName, HeadingClass }) => {
     return (
-        <h2 className={`text-center tracking-wide font-orbitron font-bold text-42 leading-[54px] ${HeadingClass}`}>{HeadingName}</h2>
+        <h2 className={`text-center tracking-wide font-orbitron font-bold text-2xl sm:text-4xl md:text-42 leading-[54px] ${HeadingClass}`}>{HeadingName}</h2>
     );
 };
