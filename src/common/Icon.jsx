@@ -12,6 +12,19 @@ const Icon = ({ icon, className }) => {
                 </defs>
             </svg>
         ),
+        Featured_Line: (
+            <svg width="1433" height="59" viewBox="0 0 1433 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H460L506.5 58H932L968 1H1440.5" stroke="url(#paint0_linear_198_72)" />
+                <defs>
+                    <linearGradient id="paint0_linear_198_72" x1="-108" y1="30" x2="1553.5" y2="30" gradientUnits="userSpaceOnUse">
+                        <stop stop-opacity="0" />
+                        <stop offset="0.511" stop-color="white" />
+                        <stop offset="1" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+            </svg>
+
+        )
     };
     return (
         <span className={` inline-block ${className}`}>

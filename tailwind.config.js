@@ -12,6 +12,8 @@ module.exports = {
       backgroundImage: {
         'hero': "url(./assets/image/webp/hero_bg.png)",
         'btn': "url(./assets/image/webp/button_bg.png)",
+        'featured': "url(./assets/image/webp/featured_bg.png)",
+        'slider': "url(./assets/image/webp/slider_bg.png)",
       },
       container: {
         center: true,
@@ -32,6 +34,9 @@ module.exports = {
         '42': "42px",
         '38': "38px",
         '29': "29px",
+      },
+      backgroundSize: {
+        '100':"100% 100%"
       }
     },
   },

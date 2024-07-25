@@ -11,10 +11,10 @@ import about_layer from "../assets/image/webp/about_layer.png";
 
 const About = () => {
     return (
-        <div className='md:pt-24 pt-10 sm:pt-16 pb-1 bg-black -mt-px relative'>
+        <div className='md:pt-24 pt-10 sm:pt-16 pb-2 bg-black -mt-px relative'>
             <div className="mt-12 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
                 <Heading HeadingName="About 1v2 Studio" HeadingClass="text-white" />
-                <Icon icon="About_Line" className=' flex justify-center absolute  w-[800px] sm:w-[1250px] md:w-[1440px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3' />
+                <Icon icon="About_Line" className=' flex justify-center absolute  w-[800px] sm:w-[1250px] md:w-[1440px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
             <div className="container sm:pt-24 pt-10 relative z-[2]">
                 <div className=" flex lg:flex-row flex-col items-center lg:justify-between gap-10">
