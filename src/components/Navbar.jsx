@@ -10,7 +10,7 @@ const Navbar = () => {
         setopen(!open);
     }
     return (
-        <div className=' fixed top-0 left-0 w-full' id='navbar'>
+        <div className=' fixed top-0 left-0 w-full z-20' id='navbar'>
             <div className="container py-1.5">
                 <nav className=' flex justify-between items-center'>
                     <a href="#navbar" className=' md:w-[86px] md:h-[86px] w-16 h-16 flex'>

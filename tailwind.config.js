@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'poppins': "Poppins,sans-serif",
+        'orbitron': "Orbitron,sans-serif",
       },
       backgroundImage: {
         'hero': "url(./assets/image/webp/hero_bg.png)",
@@ -24,9 +25,13 @@ module.exports = {
           xl: "1164px",
         },
       },
-      transitionTimingFunction: {
-        'slow': "all 300ms linear",
+      backgroundColor: {
+        "light_black": "#141414",
       },
+      fontSize: {
+        '42': "42px",
+        '38': "38px",
+      }
     },
   },
   plugins: [],
