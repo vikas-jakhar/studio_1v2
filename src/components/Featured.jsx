@@ -13,6 +13,21 @@ const Featured = () => {
         centerMode: true,
         focusOnSelect: true,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 1,
+                    dots: false,
+                }
+            },
+        ]
     };
 
     return (
@@ -26,7 +41,7 @@ const Featured = () => {
                     <Slider {...sliderSettings}>
                         {Projects.map(project => (
                             <div key={project.id} className="slide-item">
-                                <div className="bg-slider bg-100 bg-no-repeat w-full min-h-[461px] p-[20px]">
+                                <div className="bg-slider bg-100 bg-no-repeat w-full h-full min-h-[461px] p-[20px]">
                                     <img src={project.imgSrc} alt={project.altText} className='w-full' />
                                     <div className="mt-3 font-poppins text-sm gap-1.5 flex items-start">
                                         <span className='font-bold text-[#3EBFFF]'>{project.blue_text}</span>

@@ -15,3 +15,37 @@
 .slick-list {
     overflow: visible !important;
 }
+
+.slick-dots li {
+    margin: 0 8px !important;
+    width: 58px !important;
+    height: 10px !important;
+    background: white !important;
+    opacity: 70%;
+    border-radius: 8px !important;
+    transition: all 300ms linear;
+}
+
+.slick-dots li button,
+.slick-dots li button:before {
+    padding: 0 !important;
+    width: 58px !important;
+    height: 10px !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    border-radius: 8px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 100% !important;
+}
+
+.slick-dots li.slick-active {
+    background: linear-gradient(90deg, #FF1E2F 0%, #3EBFFF 100%) !important;
+    opacity: 100% !important;
+    width: 172px !important;
+}
+
+.slick-dots {
+    bottom: -40px !important;
+}
