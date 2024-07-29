@@ -4,6 +4,7 @@ import dino_island from "../assets/image/webp/dino_island.png";
 import cat_washing from "../assets/image/webp/cat_washing.png";
 import fireplace from "../assets/image/webp/fireplace.png";
 import phone_factory from "../assets/image/webp/phone_factory.png";
+import debbie from "../assets/image/webp/debbie.png";
 
 export const nav_link = [
     { heading: "Home" },
@@ -34,3 +35,16 @@ export const Projects = [
     { id: 5, imgSrc: fireplace, altText: 'fireplace', heading: "Fireplace", blue_text: "800+", visits: "1000+", text: "Experience cozy and adventurous gameplay around a virtual hearth, blending relaxation and excitement uniquely on Roblox." },
     { id: 6, imgSrc: phone_factory, altText: 'phone_factory', heading: "Phone Factory", blue_text: "300+", visits: "800+", text: "Phone Factory: Dive into the exciting world of manufacturing in this Roblox game." },
 ];
+
+export const Impact_Data = [
+    { id: '1', no: '13', text: 'experiences' },
+    { id: '1', no: '10.8k', text: 'active now' },
+    { id: '1', no: '1.086', text: 'billion visits' },
+];
+
+export const Clients_Slider = [
+    { heading: " Debbie Hagenes", text: " Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit mollit.", image: debbie, },
+    { heading: " Debbie Hagenes", text: " Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit mollit.", image: debbie, },
+    { heading: " Debbie Hagenes", text: " Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit mollit.", image: debbie, },
+    { heading: " Debbie Hagenes", text: " Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit mollit.", image: debbie, },
+]

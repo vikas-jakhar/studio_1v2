@@ -1,9 +1,11 @@
-import './App.css';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import ImageSlider from './components/ImageSlider';
 import About from './components/About';
 import Featured from './components/Featured';
+import Impact from './components/Impact';
+import Clients from './components/Clients';
+import './App.css';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <ImageSlider />
       <About />
       <Featured />
+      <Impact />
+      <Clients />
     </main>
   );
 }

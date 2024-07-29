@@ -14,31 +14,36 @@ module.exports = {
         'btn': "url(./assets/image/webp/button_bg.png)",
         'featured': "url(./assets/image/webp/featured_bg.png)",
         'slider': "url(./assets/image/webp/slider_bg.png)",
+        'impact': "url(./assets/image/webp/impact_bg.png)",
+        'clients': "url(./assets/image/webp/clients_bg.png)",
+        'debbie': "url(./assets/image/webp/debbie_bg.png)",
       },
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: "12px",
-        },
-        screens: {
-          sm: "664px",
-          md: "792px",
-          lg: "1048px",
-          xl: "1164px",
-        },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "12px",
       },
-      backgroundColor: {
-        "light_black": "#141414",
+      screens: {
+        sm: "664px",
+        md: "792px",
+        lg: "1048px",
+        xl: "1164px",
       },
-      fontSize: {
-        '42': "42px",
-        '38': "38px",
-        '29': "29px",
-      },
-      backgroundSize: {
-        '100':"100% 100%"
-      }
     },
+    backgroundColor: {
+      "light_black": "#141414",
+    },
+    fontSize: {
+      '42': "42px",
+      '38': "38px",
+      '29': "29px",
+      '64': "64px",
+      '36': "36px",
+    },
+    backgroundSize: {
+      '100': "100% 100%"
+    }
   },
+},
   plugins: [],
 }

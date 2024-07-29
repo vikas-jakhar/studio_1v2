@@ -4,12 +4,10 @@
 
 .slide-item {
     padding: 0 12px !important;
-    /* Adjust the value as needed for the desired gap */
 }
 
 .slick-list {
     margin: 0 -12px !important;
-    /* This should match the padding value to balance the margin */
 }
 
 .slick-list {
@@ -48,4 +46,25 @@
 
 .slick-dots {
     bottom: -40px !important;
+}
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slick-slide>div {
+    display: flex;
+}
+
+.Clients .slide {
+    padding: 0 14px !important;
+}
+
+.Clients .slick-list {
+    margin: 0 -50px !important;
 }
