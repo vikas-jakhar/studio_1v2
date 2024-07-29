@@ -3,6 +3,7 @@ import { Clients_Slider, Heading } from "../common/Helper";
 import Icon from '../common/Icon';
 import Slider from 'react-slick';
 import debbie_red_line from "../assets/image/webp/debbie_red_line.png";
+import red_line from "../assets/image/webp/red_line.png";
 
 const Clients = () => {
     const sliderSettings = {
@@ -26,10 +27,10 @@ const Clients = () => {
         ]
     };
     return (
-        <div className=' bg-clients bg-cover bg-no-repeat bg-center bg-black min-h-[805px] py-10 xl:py-2 -mt-9'>
-            <div className="mt-3 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
+        <div className=' bg-clients bg-cover bg-no-repeat bg-center bg-black sm:min-h-[805px] pt-10 pb-px xl:py-2 -mt-9 relative'>
+            <div className="mt-1.5 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
                 <Heading HeadingName="Clients Testimonials" />
-                <Icon icon="Clients_line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
+                <Icon icon="Clients_Line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
             <div className="container mt-8 sm:pt-24 sm:mt-3 overflow-hidden">
                 <div className=" pt-0.5 pb-24 Clients">
@@ -60,6 +61,7 @@ const Clients = () => {
                     </Slider>
                 </div>
             </div>
+            <img src={red_line} alt="red_line" className=' absolute -bottom-[12%] lg:right-16 right-2 z-[1]' />
         </div>
     )
 }

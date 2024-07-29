@@ -71,3 +71,8 @@ export const accordion_Data = [
         content: '1v2 Studio is an indie game development studio dedicated to creating innovative and engaging experiences on the Roblox platform.',
     },
 ];
+
+export const Footer_Icon = [
+    { icon: "Twitter", link: "https://x.com/i/flow/login" },
+    { icon: "Discord", link: "https://discord.com/" },
+]

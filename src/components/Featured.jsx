@@ -41,11 +41,11 @@ const Featured = () => {
 
     return (
         <div className='bg-featured bg-no-repeat bg-cover bg-center -mt-1 md:py-20 pt-12 pb-2 bg-black sm:min-h-[872px] overflow-hidden'>
-            <div className="mt-3 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
+            <div className="mt-4 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
                 <Heading HeadingName="Featured Projects" />
                 <Icon icon="Featured_Line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
-            <div className="container mt-20 pt-2 pb-11">
+            <div className="container mt-20 pt-[18px] pb-11">
                 <div className="mb-px">
                     <Slider {...sliderSettings}>
                         {Projects.map(project => (

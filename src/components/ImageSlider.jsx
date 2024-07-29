@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
 
 const ImageSlider = () => {
     useEffect(() => {
-        AOS.init();
+        AOS.init({ once: true });
     }, []);
 
     const sliderSettings = {

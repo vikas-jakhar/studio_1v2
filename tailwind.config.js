@@ -21,32 +21,33 @@ module.exports = {
         'footer': "url(./assets/image/webp/footer_bg.png)",
         'newsletter': "url(./assets/image/webp/newsletter_bg.png)",
       },
-    container: {
-      center: true,
-      padding: {
-        DEFAULT: "12px",
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "12px",
+        },
+        screens: {
+          sm: "664px",
+          md: "792px",
+          lg: "1048px",
+          xl: "1164px",
+        },
       },
-      screens: {
-        sm: "664px",
-        md: "792px",
-        lg: "1048px",
-        xl: "1164px",
+      backgroundColor: {
+        "light_black": "#141414",
+        "red": "#FF1E2F"
       },
+      fontSize: {
+        '42': "42px",
+        '38': "38px",
+        '29': "29px",
+        '64': "64px",
+        '36': "36px",
+      },
+      backgroundSize: {
+        '100': "100% 100%"
+      }
     },
-    backgroundColor: {
-      "light_black": "#141414",
-    },
-    fontSize: {
-      '42': "42px",
-      '38': "38px",
-      '29': "29px",
-      '64': "64px",
-      '36': "36px",
-    },
-    backgroundSize: {
-      '100': "100% 100%"
-    }
   },
-},
   plugins: [],
 }

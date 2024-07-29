@@ -8,13 +8,13 @@ import red_line from "../assets/image/webp/red_line.png";
 
 const Impact = () => {
     return (
-        <div className=' relative py-5 -mt-5 min-h-[822px] bg-black bg-impact bg-cover bg-no-repeat'>
-            <div className="mt-3 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
+        <div className=' relative pt-2.5 pb-5 -mt-5 min-h-[746px] bg-black bg-impact bg-cover bg-no-repeat'>
+            <div className=" relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
                 <Heading HeadingName="Our Impact" />
                 <Icon icon="Impact_line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
-            <div className="container pt-24 relative z-[1]">
-                <div className=" mt-1.5 flex items-center xl:justify-between gap-8 sm:gap-14 xl:gap-0 justify-center flex-wrap xl:flex-nowrap">
+            <div className="container pt-10 sm:pt-24 relative z-[1]">
+                <div className=" mt-4 flex items-center xl:justify-between gap-8 sm:gap-14 xl:gap-0 justify-center flex-wrap xl:flex-nowrap">
                     <h2 className=' font-orbitron font-bold text-5xl sm:text-6xl xl:text-64 leading-[73px] xl:leading-[83px] text-white tracking-wide max-w-[265px]' data-aos="zoom-in" data-aos-duration="1500">What 1v2 Studio</h2>
                     <img src={impact_dino} alt="impact_dino" className=' max-w-[445px] w-full' data-aos="zoom-in" data-aos-duration="1500" />
                     <div className="max-w-[293px] w-full flex flex-col items-start gap-[14px] mt-6 xl:mt-0" data-aos="zoom-in" data-aos-duration="1500">
@@ -25,8 +25,8 @@ const Impact = () => {
                 </div>
             </div>
             <img src={impact_top_left} alt="impact_top_left" className=' absolute top-0 left-0 -translate-y-1/2' />
-            <img src={impact_bottom_right} alt="impact_bottom_right" className=' absolute bottom-0 right-0 translate-y-1/2' />
-            <img src={red_line} alt="red_line" className=' absolute bottom-16 lg:left-16 left-2' />
+            <img src={impact_bottom_right} alt="impact_bottom_right" className=' absolute bottom-0 right-0 translate-y-1/2 z-[1]' />
+            <img src={red_line} alt="red_line" className=' absolute bottom-9 lg:left-16 left-2' />
         </div>
     )
 }
