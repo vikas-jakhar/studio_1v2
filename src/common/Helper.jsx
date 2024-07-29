@@ -47,4 +47,27 @@ export const Clients_Slider = [
     { heading: " Debbie Hagenes", text: " Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit mollit.", image: debbie, },
     { heading: " Debbie Hagenes", text: " Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit mollit.", image: debbie, },
     { heading: " Debbie Hagenes", text: " Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit mollit.", image: debbie, },
-]
+];
+
+export const accordion_Data = [
+    {
+        title: 'What is 1v2 Studio?',
+        content: '1v2 Studio is an indie game development studio dedicated to creating innovative and engaging experiences on the Roblox platform.',
+    },
+    {
+        title: 'How can I contact 1v2 Studio?',
+        content: '1v2 Studio is an indie game development studio dedicated to creating innovative and engaging experiences on the Roblox platform.',
+    },
+    {
+        title: 'Is Lenard The Lemur secure?',
+        content: '1v2 Studio is an indie game development studio dedicated to creating innovative and engaging experiences on the Roblox platform.',
+    },
+    {
+        title: 'What types of games does 1v2 Studio develop?',
+        content: '1v2 Studio is an indie game development studio dedicated to creating innovative and engaging experiences on the Roblox platform.',
+    },
+    {
+        title: 'Can I collaborate with 1v2 Studio on a game project?',
+        content: '1v2 Studio is an indie game development studio dedicated to creating innovative and engaging experiences on the Roblox platform.',
+    },
+];

@@ -17,6 +17,9 @@ module.exports = {
         'impact': "url(./assets/image/webp/impact_bg.png)",
         'clients': "url(./assets/image/webp/clients_bg.png)",
         'debbie': "url(./assets/image/webp/debbie_bg.png)",
+        'faq': "url(./assets/image/webp/faq_bg.png)",
+        'footer': "url(./assets/image/webp/footer_bg.png)",
+        'newsletter': "url(./assets/image/webp/newsletter_bg.png)",
       },
     container: {
       center: true,

@@ -12,7 +12,7 @@ const Clients = () => {
         centerMode: true,
         focusOnSelect: true,
         arrows: false,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 5000,
         speed: 1000,
         pauseOnHover: true,
@@ -35,7 +35,7 @@ const Clients = () => {
                 <div className=" pt-0.5 pb-24 Clients">
                     <Slider {...sliderSettings}>
                         {Clients_Slider.map((index) => (
-                            <div key={index} className=" px-[14px] sm:px-14">
+                            <div key={index} className=" px-[14px] sm:px-14" data-aos="zoom-in" data-aos-duration="1500">
                                 <div className=" bg-debbie bg-100 bg-no-repeat flex-col-reverse lg:flex-row items-center min-h-[411px] xl:w-[1041px] w-full py-10 px-5 flex lg:items-start gap-3 justify-center">
                                     <div className="max-w-[621px] flex-col flex items-center lg:items-start w-full">
                                         <div className=" relative py-[0.5px] px-5 lg:px-0 lg:pr-6">
