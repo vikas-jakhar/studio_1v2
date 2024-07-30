@@ -2,8 +2,8 @@ import React from 'react';
 import { Clients_Slider, Heading } from "../common/Helper";
 import Icon from '../common/Icon';
 import Slider from 'react-slick';
-import debbie_red_line from "../assets/image/webp/debbie_red_line.png";
-import red_line from "../assets/image/webp/red_line.png";
+import debbie_red_line from "../assets/image/webp/debbie_red_line.webp";
+import red_line from "../assets/image/webp/red_line.webp";
 
 const Clients = () => {
     const sliderSettings = {

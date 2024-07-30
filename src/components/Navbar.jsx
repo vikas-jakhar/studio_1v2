@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import logo from "../assets/image/webp/logo.png";
+import logo from "../assets/image/webp/logo.webp";
 import { nav_link, Button } from '../common/Helper';
-import nav_top from "../assets/image/webp/nav_top_hover.png";
-import nav_bottom from "../assets/image/webp/nav_bottom_hover.png";
+import nav_top from "../assets/image/webp/nav_top_hover.webp";
+import nav_bottom from "../assets/image/webp/nav_bottom_hover.webp";
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);

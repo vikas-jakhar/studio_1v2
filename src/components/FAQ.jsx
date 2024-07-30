@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Icon from "../common/Icon";
 import { Heading, accordion_Data } from "../common/Helper";
-import faq_left from "../assets/image/webp/faq_left.png";
-import faq_right from "../assets/image/webp/faq_right.png";
+import faq_left from "../assets/image/webp/faq_left.webp";
+import faq_right from "../assets/image/webp/faq_right.webp";
 
-const FAQ = () => {
+const Faq = () => {
 
     const [openIndex, setOpenIndex] = useState(null);
 
@@ -22,7 +22,7 @@ const FAQ = () => {
                 <div className="py-1 flex flex-col items-center">
                     {accordion_Data.map((item, index) => (
                         <div key={index} className="w-full flex justify-center" data-aos="zoom-in-up" data-aos-duration="1500">
-                            <div className={`${openIndex === index ? "border-[#3EBFFF] bg-[linear-gradient(0deg,_#9E0000_-14.1%,_#FF1212_123.08%)] shadow-[-15.4px_15.4px_15.4px_0px_#CCCCCC0F_inset,-7.7px_7.7px_7.7px_0px_#FFFFFF0F_inset,_15.4px_-15.4px_15.4px_0px_#FFFFFF0F_inset,_7.7px_-7.7px_7.7px_0px_#CCCCCC0F_inset]" : "border-[#5A5555] backdrop-blur-xl"} accordion max-w-[884px] mt-6 w-full border-[1px]`}>
+                            <div className={`${openIndex === index ? "border-sky_blue bg-[linear-gradient(0deg,_#9E0000_-14.1%,_#FF1212_123.08%)] shadow-[-15.4px_15.4px_15.4px_0px_#CCCCCC0F_inset,-7.7px_7.7px_7.7px_0px_#FFFFFF0F_inset,_15.4px_-15.4px_15.4px_0px_#FFFFFF0F_inset,_7.7px_-7.7px_7.7px_0px_#CCCCCC0F_inset]" : "border-light_brown backdrop-blur-xl"} accordion max-w-[884px] mt-6 w-full border-[1px]`}>
                                 <div
                                     className={`${openIndex === index ? 'pt-[15.2px] pb-1.5' : 'py-[19px]'} accordion-header px-5 flex items-start sm:items-center justify-between gap-1.5 cursor-pointer`}
                                     onClick={() => handleToggle(index)}
@@ -50,4 +50,4 @@ const FAQ = () => {
     )
 }
 
-export default FAQ
+export default Faq

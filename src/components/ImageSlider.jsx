@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import honair from "../assets/image/webp/honair.png";
-import roblox from "../assets/image/webp/roblox.png";
-import lava from "../assets/image/webp/lava.png";
-import dino from "../assets/image/webp/dino.png";
-import cat from "../assets/image/webp/cat.png";
-import phone from "../assets/image/webp/phone.png";
+import honair from "../assets/image/webp/honair.webp";
+import roblox from "../assets/image/webp/roblox.webp";
+import lava from "../assets/image/webp/lava.webp";
+import dino from "../assets/image/webp/dino.webp";
+import cat from "../assets/image/webp/cat.webp";
+import phone from "../assets/image/webp/phone.webp";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

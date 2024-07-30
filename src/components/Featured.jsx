@@ -53,9 +53,9 @@ const Featured = () => {
                                 <div className="bg-slider bg-100 bg-no-repeat w-full h-full min-h-[461px] p-[20px]" data-aos="zoom-in" data-aos-duration="1500">
                                     <img src={project.imgSrc} alt={project.altText} className='w-full' />
                                     <div className="mt-3 font-poppins text-xs sm:text-sm gap-1.5 flex items-start">
-                                        <span className='font-bold text-[#3EBFFF]'>{project.blue_text}</span>
+                                        <span className='font-bold text-sky_blue'>{project.blue_text}</span>
                                         <span className='sm:mr-1 font-normal text-white opacity-70'>Active Players</span>
-                                        <span className='font-bold text-[#3EBFFF]'>{project.visits}</span>
+                                        <span className='font-bold text-sky_blue'>{project.visits}</span>
                                         <span className='sm:mr-1 font-normal text-white opacity-70'>Visits</span>
                                     </div>
                                     <p className='mt-4 mb-3 font-orbitron font-bold text-xl sm:text-2xl text-white tracking-wide'>{project.heading}</p>

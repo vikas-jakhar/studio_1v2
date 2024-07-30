@@ -1,10 +1,10 @@
-import lava_land from "../assets/image/webp/lava_land.png";
-import maze from "../assets/image/webp/maze.png";
-import dino_island from "../assets/image/webp/dino_island.png";
-import cat_washing from "../assets/image/webp/cat_washing.png";
-import fireplace from "../assets/image/webp/fireplace.png";
-import phone_factory from "../assets/image/webp/phone_factory.png";
-import debbie from "../assets/image/webp/debbie.png";
+import lava_land from "../assets/image/webp/lava_land.webp";
+import maze from "../assets/image/webp/maze.webp";
+import dino_island from "../assets/image/webp/dino_island.webp";
+import cat_washing from "../assets/image/webp/cat_washing.webp";
+import fireplace from "../assets/image/webp/fireplace.webp";
+import phone_factory from "../assets/image/webp/phone_factory.webp";
+import debbie from "../assets/image/webp/debbie.webp";
 
 export const nav_link = [
     { heading: "Home" },

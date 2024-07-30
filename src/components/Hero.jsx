@@ -1,7 +1,7 @@
 import React from 'react';
-import hero_thefn from "../assets/image/webp/hero_thefn.png";
+import hero_thefn from "../assets/image/webp/hero_thefn.webp";
 import { Button } from "../common/Helper";
-import red_line from "../assets/image/webp/red_line.png";
+import red_line from "../assets/image/webp/red_line.webp";
 
 const Hero = () => {
     return (

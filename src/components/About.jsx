@@ -1,13 +1,13 @@
 import React from 'react'
 import { Button, Heading } from "../common/Helper";
 import Icon from '../common/Icon';
-import about_top_right from "../assets/image/webp/about_top_right.png";
-import gym from "../assets/image/webp/gym.png";
-import gaming_red_line from "../assets/image/webp/gaming_red_line.png";
-import red_line from "../assets/image/webp/red_line.png";
-import about_bottom_left from "../assets/image/webp/about_bottom_left.png";
-import red_circle from "../assets/image/webp/red_circle.png";
-import about_layer from "../assets/image/webp/about_layer.png";
+import about_top_right from "../assets/image/webp/about_top_right.webp";
+import gym from "../assets/image/webp/gym.webp";
+import gaming_red_line from "../assets/image/webp/gaming_red_line.webp";
+import red_line from "../assets/image/webp/red_line.webp";
+import about_bottom_left from "../assets/image/webp/about_bottom_left.webp";
+import red_circle from "../assets/image/webp/red_circle.webp";
+import about_layer from "../assets/image/webp/about_layer.webp";
 
 const About = () => {
     return (

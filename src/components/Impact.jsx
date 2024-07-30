@@ -1,10 +1,10 @@
 import React from 'react'
 import Icon from '../common/Icon';
 import { Heading, Impact_Data } from "../common/Helper";
-import impact_bottom_right from "../assets/image/webp/impact_bottom_right.png";
-import impact_top_left from "../assets/image/webp/impact_top_left.png";
-import impact_dino from "../assets/image/webp/impact_dino.png";
-import red_line from "../assets/image/webp/red_line.png";
+import impact_bottom_right from "../assets/image/webp/impact_bottom_right.webp";
+import impact_top_left from "../assets/image/webp/impact_top_left.webp";
+import impact_dino from "../assets/image/webp/impact_dino.webp";
+import red_line from "../assets/image/webp/red_line.webp";
 
 const Impact = () => {
     return (

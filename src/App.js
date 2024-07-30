@@ -5,7 +5,7 @@ import About from './components/About';
 import Featured from './components/Featured';
 import Impact from './components/Impact';
 import Clients from './components/Clients';
-import FAQ from './components/FAQ';
+import Faq from './components/Faq';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -19,7 +19,7 @@ function App() {
       <Featured />
       <Impact />
       <Clients />
-      <FAQ />
+      <Faq />
       <Footer />
     </main>
   );

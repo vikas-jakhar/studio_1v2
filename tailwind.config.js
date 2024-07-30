@@ -10,16 +10,16 @@ module.exports = {
         'orbitron': "Orbitron,sans-serif",
       },
       backgroundImage: {
-        'hero': "url(./assets/image/webp/hero_bg.png)",
-        'btn': "url(./assets/image/webp/button_bg.png)",
-        'featured': "url(./assets/image/webp/featured_bg.png)",
-        'slider': "url(./assets/image/webp/slider_bg.png)",
-        'impact': "url(./assets/image/webp/impact_bg.png)",
-        'clients': "url(./assets/image/webp/clients_bg.png)",
-        'debbie': "url(./assets/image/webp/debbie_bg.png)",
-        'faq': "url(./assets/image/webp/faq_bg.png)",
-        'footer': "url(./assets/image/webp/footer_bg.png)",
-        'newsletter': "url(./assets/image/webp/newsletter_bg.png)",
+        'hero': "url(./assets/image/webp/hero_bg.webp)",
+        'btn': "url(./assets/image/webp/button_bg.webp)",
+        'featured': "url(./assets/image/webp/featured_bg.webp)",
+        'slider': "url(./assets/image/webp/slider_bg.webp)",
+        'impact': "url(./assets/image/webp/impact_bg.webp)",
+        'clients': "url(./assets/image/webp/clients_bg.webp)",
+        'debbie': "url(./assets/image/webp/debbie_bg.webp)",
+        'faq': "url(./assets/image/webp/faq_bg.webp)",
+        'footer': "url(./assets/image/webp/footer_bg.webp)",
+        'newsletter': "url(./assets/image/webp/newsletter_bg.webp)",
       },
       container: {
         center: true,
@@ -37,6 +37,11 @@ module.exports = {
         "light_black": "#141414",
         "red": "#FF1E2F"
       },
+      borderColor: {
+        'sky_blue': "#3EBFFF",
+        'light_brown': "#5A5555",
+        'light_gray': "#FFFFFF45",
+      },
       fontSize: {
         '42': "42px",
         '38': "38px",
@@ -46,6 +51,9 @@ module.exports = {
       },
       backgroundSize: {
         '100': "100% 100%"
+      },
+      textColor: {
+        'sky_blue': "3EBFFF",
       }
     },
   },
