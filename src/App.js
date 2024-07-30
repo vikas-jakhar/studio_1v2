@@ -5,11 +5,11 @@ import About from './components/About';
 import Featured from './components/Featured';
 import Impact from './components/Impact';
 import Clients from './components/Clients';
-import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Scrolltotop from './components/Scrolltotop';
 import Preloader from './components/Preloader';
 import './App.css';
+import Accordion from './components/Accordion';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       <Featured />
       <Impact />
       <Clients />
-      <Faq />
+      <Accordion />
       <Footer />
       <Scrolltotop />
       <Preloader />

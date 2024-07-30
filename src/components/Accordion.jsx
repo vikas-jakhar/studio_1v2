@@ -4,7 +4,7 @@ import { Heading, accordion_Data } from "../common/Helper";
 import faq_left from "../assets/image/webp/faq_left.webp";
 import faq_right from "../assets/image/webp/faq_right.webp";
 
-const Faq = () => {
+const Accordion = () => {
 
     const [openIndex, setOpenIndex] = useState(null);
 
@@ -50,4 +50,4 @@ const Faq = () => {
     )
 }
 
-export default Faq
+export default Accordion
