@@ -5,14 +5,20 @@ import cat_washing from "../assets/image/webp/cat_washing.webp";
 import fireplace from "../assets/image/webp/fireplace.webp";
 import phone_factory from "../assets/image/webp/phone_factory.webp";
 import debbie from "../assets/image/webp/debbie.webp";
+import honair from "../assets/image/webp/honair.webp";
+import roblox from "../assets/image/webp/roblox.webp";
+import lava from "../assets/image/webp/lava.webp";
+import dino from "../assets/image/webp/dino.webp";
+import cat from "../assets/image/webp/cat.webp";
+import phone from "../assets/image/webp/phone.webp";
 
 export const nav_link = [
-    { heading: "Home", link:"hero" },
-    { heading: "About Us", link:"about" },
-    { heading: "Portfolio", link:"impact" },
-    { heading: "Services", link:"featured" },
-    { heading: "Testimonial", link:"clients" },
-    { heading: "Contact Us", link:"footer" },
+    { heading: "Home", link: "hero" },
+    { heading: "About Us", link: "about" },
+    { heading: "Portfolio", link: "impact" },
+    { heading: "Services", link: "featured" },
+    { heading: "Testimonial", link: "clients" },
+    { heading: "Contact Us", link: "footer" },
 ];
 
 export const Button = ({ buttonName, buttonClass }) => {
@@ -20,6 +26,42 @@ export const Button = ({ buttonName, buttonClass }) => {
         <button className={`py-3 px-[30px] text-nowrap font-poppins font-normal text-white text-base bg-btn  bg-100 bg-no-repeat duration-300 ease-linear hover:drop-shadow-[0px_0px_5px_white] ${buttonClass}`}>{buttonName}</button>
     );
 };
+
+export const Images = [
+    honair,
+    roblox,
+    lava,
+    dino,
+    cat,
+    phone,
+];
+
+export const Widths = {
+    0: "w-[151px]",
+    1: "w-[159px]",
+    2: "w-[234px]",
+    3: "w-[234px]",
+    4: "w-[225px]",
+    5: "w-[234px]",
+};
+
+export const Top = {
+    0: "group-hover:-top-[3px]",
+    1: "group-hover:-top-[6px]",
+    2: "group-hover:-top-[5px]",
+    3: "group-hover:-top-[5px]",
+    4: "group-hover:-top-[9px]",
+    5: "group-hover:-top-[9px]",
+}
+
+export const Bottom = {
+    0: "group-hover:-bottom-[3px]",
+    1: "group-hover:-bottom-[6px]",
+    2: "group-hover:-bottom-[5px]",
+    3: "group-hover:-bottom-[5px]",
+    4: "group-hover:-bottom-[9px]",
+    5: "group-hover:-bottom-[9px]",
+}
 
 export const Heading = ({ HeadingName, HeadingClass }) => {
     return (

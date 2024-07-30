@@ -13,6 +13,15 @@
     margin: 0 -12px !important;
 }
 
+.imageslider .slick-slide {
+    justify-content: center;
+}
+
+.imageslider .slick-track {
+    gap: 12px;
+    justify-content: center;
+}
+
 .slick-list {
     overflow: visible !important;
 }

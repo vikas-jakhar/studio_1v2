@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import logo from "../assets/image/webp/logo.webp";
-import { nav_link, Button } from '../common/Helper';
+import { nav_link, Button, Top, Bottom } from '../common/Helper';
 import nav_top from "../assets/image/webp/nav_top_hover.webp";
 import nav_bottom from "../assets/image/webp/nav_bottom_hover.webp";
 
@@ -58,7 +58,7 @@ const Navbar = () => {
                         {nav_link.map((item, index) => (
                             <div key={index} className="px-4 relative">
                                 <div className="group">
-                                    <img src={nav_top} alt="nav_top" className="absolute -top-4 group-hover:-top-[8px] left-0 w-full opacity-0 group-hover:opacity-100 -z-[1] transition-slow" />
+                                    <img src={nav_top} alt="nav_top" className={`${Top[index] || ""} absolute -top-4 left-0 w-full opacity-0 group-hover:opacity-100 -z-[1] transition-slow`} />
                                     <a
                                         href={`#${item.link}`}
                                         onClick={(e) => handleNavClick(e, item.link)}
@@ -66,7 +66,7 @@ const Navbar = () => {
                                     >
                                         {item.heading}
                                     </a>
-                                    <img src={nav_bottom} alt="nav_bottom" className="absolute -bottom-4 group-hover:-bottom-[8px] left-0 w-full opacity-0 group-hover:opacity-100 -z-[1] transition-slow" />
+                                    <img src={nav_bottom} alt="nav_bottom" className={`${Bottom[index] || ""} absolute -bottom-4 left-0 w-full opacity-0 group-hover:opacity-100 -z-[1] transition-slow`} />
                                 </div>
                             </div>
                         ))}
