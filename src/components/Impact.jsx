@@ -14,8 +14,8 @@ const Impact = () => {
                 <Icon icon="Impact_line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
             <div className="container pt-10 sm:pt-24 relative z-[1]">
-                <div className=" mt-4 flex items-center xl:justify-between gap-8 sm:gap-14 xl:gap-0 justify-center flex-wrap xl:flex-nowrap">
-                    <h2 className=' font-orbitron font-bold text-5xl sm:text-6xl xl:text-64 leading-[73px] xl:leading-[83px] text-white tracking-wide max-w-[265px]' data-aos="zoom-in" data-aos-duration="1500">What 1v2 Studio</h2>
+                <div className=" mt-4 flex items-center gap-8 sm:gap-14 xl:gap-9 justify-center xl:justify-start flex-wrap xl:flex-nowrap">
+                    <h2 className=' font-orbitron font-bold text-5xl sm:text-6xl xl:text-64 leading-[73px] xl:leading-[83px] text-white tracking-wide max-w-[265px] xl:max-w-[312px]' data-aos="zoom-in" data-aos-duration="1500">What 1v2 Studio</h2>
                     <img src={impact_dino} alt="impact_dino" className=' max-w-[445px] w-full' data-aos="zoom-in" data-aos-duration="1500" />
                     <div className="max-w-[293px] w-full flex flex-col items-start gap-[14px] mt-6 xl:mt-0" data-aos="zoom-in" data-aos-duration="1500">
                         {Impact_Data.map((i) => (
