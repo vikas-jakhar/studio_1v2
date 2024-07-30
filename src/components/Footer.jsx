@@ -11,7 +11,7 @@ import blur_img from "../assets/image/webp/blur_img.webp";
 const Footer = () => {
     const current_year = new Date().getFullYear();
     return (
-        <div className='bg-footer bg-cover bg-no-repeat sm:pt-20 py-2 -mt-1 bg-black relative'>
+        <div className='bg-footer bg-cover bg-no-repeat sm:pt-20 py-2 -mt-1 bg-black relative' id='footer'>
             <div className="container mt-12 pt-1.5 flex-col flex items-center pb-10 relative z-[1]">
                 <div className="mt-px px-3 bg-newsletter bg-100 bg-no-repeat max-w-[900px] w-full min-h-[317px] flex flex-col items-center py-11">
                     <p className=' text-white font-bold text-3xl sm:text-42 font-orbitron text-center sm:leading-[63px]'>Subscribe to <span className=' relative py-0.5 pr-4'> <img src={red_line} alt="red_line" className=' absolute w-full top-1 -left-2 hidden lg:flex' />our newsletter</span></p>
@@ -33,8 +33,8 @@ const Footer = () => {
             </div>
             <img src={blur_img} alt="blur_img" className=' absolute top-0 left-1/2 -translate-x-1/2' />
             <p className='w-full font-poppins font-normal text-white opacity-50 text-base text-center pt-[22px] pb-[14px] border-light_gray border-t-2 mb-px'>Copyright@{current_year} All right reserved</p>
-            <img src={red_line_left} alt="red_line_left" className=' absolute -top-12 lg:left-16 left-2' />
-            <img src={red_line_left} alt="red_line" className=' absolute bottom-[12%] lg:right-16 right-2 z-[1]' />
+            <img src={red_line_left} alt="red_line_left" className=' absolute -top-12 lg:left-16 left-2 hidden sm:flex' />
+            <img src={red_line_left} alt="red_line" className=' absolute bottom-[12%] lg:right-16 right-2 z-[1] hidden sm:flex' />
             <img src={footer_right_red} alt="footer_right_red" className='absolute bottom-0 right-0' />
             <img src={footer_left_red} alt="footer_left_red" className=' absolute top-16 left-0 -translate-y-1/2' />
         </div>

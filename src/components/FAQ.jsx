@@ -13,7 +13,7 @@ const Faq = () => {
     };
 
     return (
-        <div className=' relative bg-faq bg-cover bg-no-repeat bg-black pt-px sm:pt-5 pb-4 -mt-1'>
+        <div className=' relative bg-faq bg-cover bg-no-repeat bg-black pt-px sm:pt-5 pb-4 -mt-1' id='faq'>
             <div className="mt-3 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
                 <Heading HeadingName="FAQ" />
                 <Icon icon="Faq_Line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />

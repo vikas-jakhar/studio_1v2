@@ -11,7 +11,7 @@ import about_layer from "../assets/image/webp/about_layer.webp";
 
 const About = () => {
     return (
-        <div className='md:pt-24 pt-10 sm:pt-16 pb-2 bg-black -mt-px relative'>
+        <div className='md:pt-24 pt-10 sm:pt-16 pb-2 bg-black -mt-px relative' id='about'>
             <div className="mt-10 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
                 <Heading HeadingName="About 1v2 Studio" HeadingClass="text-white" />
                 <Icon icon="About_Line" className=' flex justify-center absolute  w-[800px] sm:w-[1250px] md:w-[1440px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
@@ -33,7 +33,7 @@ const About = () => {
                 </div>
             </div>
             <img src={about_top_right} alt="about_top_right" className=' absolute top-[6%] right-0 -translate-y-1/2' />
-            <img src={red_line} alt="red_line" className=' absolute bottom-[50px] lg:right-16 right-2 z-[1]' />
+            <img src={red_line} alt="red_line" className=' hidden sm:flex absolute bottom-[50px] lg:right-16 right-2 z-[1]' />
             <img src={about_bottom_left} alt="about_bottom_left" className=' absolute left-0 bottom-0 translate-y-1/2' />
             <img src={red_circle} alt="red_circle" className=' absolute hidden sm:flex top-20 lg:bottom-0 xl:bottom-auto xl:top-10 left-16 lg:top-32 xl:left-0 w-10/12 lg:w-1/2 xl:w-auto z-[1]' />
             <img src={about_layer} alt="about_layer" className=' absolute right-0 bottom-[10%]' />

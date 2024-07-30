@@ -5,7 +5,7 @@ import red_line from "../assets/image/webp/red_line.webp";
 
 const Hero = () => {
     return (
-        <div className=' bg-hero bg-cover bg-no-repeat bg-center min-h-screen lg:min-h-[810px] flex items-center relative'>
+        <div className=' bg-hero bg-cover bg-no-repeat bg-center min-h-screen lg:min-h-[810px] flex items-center relative' id='hero'>
             <div className="container mt-9 py-10 relative z-[1]">
                 <div className=" flex flex-col-reverse md:flex-row items-center pt-10 justify-between">
                     <div className=" flex xl:pb-8 flex-col justify-center max-w-[492px] items-center md:items-start w-full md:w-1/2 mt-6 md:mt-0">
@@ -18,7 +18,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <img src={red_line} alt="red_line" className=' absolute bottom-2 lg:left-16 left-2' />
+            <img src={red_line} alt="red_line" className=' absolute bottom-2 hidden sm:flex lg:left-16 left-2' />
         </div>
     )
 }

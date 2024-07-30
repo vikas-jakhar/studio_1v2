@@ -7,12 +7,12 @@ import phone_factory from "../assets/image/webp/phone_factory.webp";
 import debbie from "../assets/image/webp/debbie.webp";
 
 export const nav_link = [
-    { heading: "Home" },
-    { heading: "About Us" },
-    { heading: "Portfolio" },
-    { heading: "Services" },
-    { heading: "Testimonial" },
-    { heading: "Contact Us" },
+    { heading: "Home", link:"hero" },
+    { heading: "About Us", link:"about" },
+    { heading: "Portfolio", link:"impact" },
+    { heading: "Services", link:"featured" },
+    { heading: "Testimonial", link:"clients" },
+    { heading: "Contact Us", link:"footer" },
 ];
 
 export const Button = ({ buttonName, buttonClass }) => {

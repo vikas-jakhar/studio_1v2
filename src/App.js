@@ -7,11 +7,13 @@ import Impact from './components/Impact';
 import Clients from './components/Clients';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
+import Scrolltotop from './components/Scrolltotop';
+import Preloader from './components/Preloader';
 import './App.css';
 
 function App() {
   return (
-    <main className=' max-w-[1920px] mx-auto overflow-hidden'>
+    <div className=' max-w-[1920px] mx-auto overflow-hidden'>
       <Navbar />
       <Hero />
       <ImageSlider />
@@ -21,7 +23,9 @@ function App() {
       <Clients />
       <Faq />
       <Footer />
-    </main>
+      <Scrolltotop />
+      <Preloader />
+    </div>
   );
 }
 

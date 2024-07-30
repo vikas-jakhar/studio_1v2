@@ -8,7 +8,7 @@ import red_line from "../assets/image/webp/red_line.webp";
 
 const Impact = () => {
     return (
-        <div className=' relative pt-2.5 pb-5 -mt-5 min-h-[746px] bg-black bg-impact bg-cover bg-no-repeat'>
+        <div className=' relative pt-2.5 pb-5 -mt-5 min-h-[746px] bg-black bg-impact bg-cover bg-no-repeat' id='impact'>
             <div className=" relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
                 <Heading HeadingName="Our Impact" />
                 <Icon icon="Impact_line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
@@ -26,7 +26,7 @@ const Impact = () => {
             </div>
             <img src={impact_top_left} alt="impact_top_left" className=' absolute top-0 left-0 -translate-y-1/2' />
             <img src={impact_bottom_right} alt="impact_bottom_right" className=' absolute bottom-0 right-0 translate-y-1/2 z-[1]' />
-            <img src={red_line} alt="red_line" className=' absolute bottom-9 lg:left-16 left-2' />
+            <img src={red_line} alt="red_line" className='hidden sm:flex absolute bottom-9 lg:left-16 left-2' />
         </div>
     )
 }

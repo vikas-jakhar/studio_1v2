@@ -22,12 +22,8 @@ const Navbar = () => {
             if (navBar) {
                 if (scrolled > 200) {
                     navBar.classList.add("backdrop-blur-lg");
-                    navBar.classList.add("shadow-md");
-                    navBar.classList.add("shadow-white");
                 } else {
                     navBar.classList.remove("backdrop-blur-lg");
-                    navBar.classList.remove("shadow-md");
-                    navBar.classList.remove("shadow-white");
                 }
             }
         };
@@ -37,6 +33,19 @@ const Navbar = () => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, [open]);
+
+    const handleNavClick = (e, link) => {
+        e.preventDefault();
+        toggleOpen();
+
+        const target = document.getElementById(link);
+        if (target) {
+            window.scrollTo({
+                top: target.offsetTop,
+                behavior: 'smooth',
+            });
+        }
+    };
 
     return (
         <div className='fixed top-0 left-0 w-full z-20 menu' id='navbar'>
@@ -50,7 +59,11 @@ const Navbar = () => {
                             <div key={index} className="px-4 relative">
                                 <div className="group">
                                     <img src={nav_top} alt="nav_top" className="absolute -top-4 group-hover:-top-[8px] left-0 w-full opacity-0 group-hover:opacity-100 -z-[1] transition-slow" />
-                                    <a onClick={toggleOpen} href="#navbar" className='font-poppins group font-normal text-base opacity-70 text-white transition-slow hover:opacity-100 relative z-[1]'>
+                                    <a
+                                        href={`#${item.link}`}
+                                        onClick={(e) => handleNavClick(e, item.link)}
+                                        className='font-poppins group font-normal text-base opacity-70 text-white transition-slow hover:opacity-100 relative z-[1]'
+                                    >
                                         {item.heading}
                                     </a>
                                     <img src={nav_bottom} alt="nav_bottom" className="absolute -bottom-4 group-hover:-bottom-[8px] left-0 w-full opacity-0 group-hover:opacity-100 -z-[1] transition-slow" />
