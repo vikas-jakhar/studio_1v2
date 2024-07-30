@@ -29,7 +29,7 @@ const Footer = () => {
                             <Icon icon={index.icon} className="flex" />
                         </a>
                     ))}
-                </div>
+                </div>  
             </div>
             <img src={blur_img} alt="blur_img" className=' absolute top-0 left-1/2 -translate-x-1/2' />
             <p className='w-full font-poppins font-normal text-white opacity-50 text-base text-center pt-[22px] pb-[14px] border-light_gray border-t-2 mb-px'>Copyright@{current_year} All right reserved</p>
