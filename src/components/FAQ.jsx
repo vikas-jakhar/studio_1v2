@@ -18,13 +18,13 @@ const FAQ = () => {
                 <Heading HeadingName="FAQ" />
                 <Icon icon="Faq_Line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
-            <div className="container pt-10 sm:pt-20 mt-2">
+            <div className="container pt-7 sm:pt-20 -mt-1 relative z-[1]">
                 <div className="py-1 flex flex-col items-center">
                     {accordion_Data.map((item, index) => (
                         <div key={index} className="w-full flex justify-center" data-aos="zoom-in-up" data-aos-duration="1500">
                             <div className={`${openIndex === index ? "border-[#3EBFFF] bg-[linear-gradient(0deg,_#9E0000_-14.1%,_#FF1212_123.08%)] shadow-[-15.4px_15.4px_15.4px_0px_#CCCCCC0F_inset,-7.7px_7.7px_7.7px_0px_#FFFFFF0F_inset,_15.4px_-15.4px_15.4px_0px_#FFFFFF0F_inset,_7.7px_-7.7px_7.7px_0px_#CCCCCC0F_inset]" : "border-[#5A5555] backdrop-blur-xl"} accordion max-w-[884px] mt-6 w-full border-[1px]`}>
                                 <div
-                                    className={`${openIndex === index ? 'pt-[17px] pb-1.5' : 'py-5'} accordion-header px-5 flex items-start sm:items-center justify-between gap-1.5 cursor-pointer`}
+                                    className={`${openIndex === index ? 'pt-[15.2px] pb-1.5' : 'py-[19px]'} accordion-header px-5 flex items-start sm:items-center justify-between gap-1.5 cursor-pointer`}
                                     onClick={() => handleToggle(index)}
                                     aria-expanded={openIndex === index}
                                 >
@@ -34,7 +34,7 @@ const FAQ = () => {
                                     <Icon icon={`${openIndex === index ? 'Accordion_Open' : 'Accordion_Close'}`} />
                                 </div>
                                 {openIndex === index && (
-                                    <div className="accordion-content flex items-start gap-3 pl-5 pb-[17px] max-w-[759px] w-full">
+                                    <div className="accordion-content flex items-start gap-3 pl-5 pb-[15.2px] max-w-[759px] w-full">
                                         <p className='text-white font-poppins text-base sm:text-lg font-normal opacity-70'>{item.content}</p>
                                     </div>
                                 )}
