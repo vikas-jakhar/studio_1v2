@@ -27,9 +27,9 @@ module.exports = {
           DEFAULT: "12px",
         },
         screens: {
-          sm: "664px",
-          md: "792px",
-          lg: "1048px",
+          sm: "640px",
+          md: "768px",
+          lg: "1024px",
           xl: "1164px",
         },
       },
@@ -53,7 +53,7 @@ module.exports = {
         '100': "100% 100%"
       },
       textColor: {
-        'sky_blue': "3EBFFF",
+        'sky_blue': "#3EBFFF",
       }
     },
   },

@@ -27,7 +27,7 @@ const Clients = () => {
         ]
     };
     return (
-        <div className=' bg-clients bg-cover bg-no-repeat bg-center bg-black sm:min-h-[737px] pt-10 pb-px xl:py-2 -mt-9 relative' id='clients'>
+        <div className=' bg-clients bg-cover bg-no-repeat bg-center bg-black sm:min-h-[737px] pt-24 pb-px xl:py-2 -mt-9 relative' id='clients'>
             <div className="mt-1.5 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
                 <Heading HeadingName="Clients Testimonials" />
                 <Icon icon="Clients_Line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
