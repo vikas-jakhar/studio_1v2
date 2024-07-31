@@ -29,14 +29,14 @@ const Accordion = () => {
                                     aria-expanded={openIndex === index}
                                 >
                                     <div className="flex items-start sm:items-center gap-1.5">
-                                        <h3 className="text-white font-orbitron font-medium text-base sm:text-lg">{item.title}</h3>
+                                        <h3 className="text-white font-orbitron font-medium text-base sm:text-lg md:text-2xl">{item.title}</h3>
                                     </div>
                                     <Icon icon={`${openIndex === index ? 'Accordion_Open' : 'Accordion_Close'}`} />
                                 </div>
                                 <div
                                     className={`accordion-content flex items-start gap-3 pl-5 pb-[15.2px] max-w-[759px] w-full duration-700 ease-in-out overflow-hidden ${openIndex === index ? ' relative' : 'translate-y-full top-24 absolute'}`}
                                 >
-                                    <p className='text-white font-poppins text-base sm:text-lg font-normal opacity-70'>{item.content}</p>
+                                    <p className='text-white font-poppins text-base md:text-lg font-normal opacity-70'>{item.content}</p>
                                 </div>
                             </div>
                         </div>

@@ -13,7 +13,7 @@ const Clients = () => {
         centerMode: true,
         focusOnSelect: true,
         arrows: false,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 5000,
         speed: 1000,
         pauseOnHover: true,
@@ -43,10 +43,10 @@ const Clients = () => {
                                             <img src={debbie_red_line} alt="debbie_red_line" className=' absolute top-0 lg:-left-4 -left-1 w-full' />
                                             <p className=' text-white text-nowrap relative z-[1] font-orbitron font-bold xl:text-42 text-xl sm:text-4xl tracking-wide xl:leading-[54px]'> {index.heading}</p>
                                         </div>
-                                        <p className='mt-4 font-poppins font-normal text-center lg:text-left text-sm sm:text-lg xl:text-2xl xl:leading-9 text-white opacity-70'>
+                                        <p className='mt-7 font-poppins font-normal text-center lg:text-left text-sm sm:text-lg xl:text-2xl xl:leading-9 text-white opacity-70'>
                                             {index.text}
                                         </p>
-                                        <div className="flex items-center mt-6 gap-1.5">
+                                        <div className="flex items-center mt-8 gap-1.5">
                                             <Icon icon="Star" />
                                             <Icon icon="Star" />
                                             <Icon icon="Star" />
