@@ -8,8 +8,8 @@ import Clients from './components/Clients';
 import Footer from './components/Footer';
 import Scrolltotop from './components/Scrolltotop';
 import Preloader from './components/Preloader';
-import './App.css';
 import Accordion from './components/Accordion';
+import './App.css';
 
 function App() {
   return (
