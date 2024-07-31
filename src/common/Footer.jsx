@@ -1,8 +1,8 @@
 import React from 'react'
 import red_line from "../assets/image/webp/debbie_red_line.webp";
-import { Button, Footer_Icon } from '../common/Helper';
+import { Button, Footer_Icon } from './Helper';
 import logo from "../assets/image/webp/logo.webp";
-import Icon from '../common/Icon';
+import Icon from './Icon';
 import red_line_left from "../assets/image/webp/red_line.webp";
 import footer_right_red from "../assets/image/webp/footer_right_red.webp";
 import footer_left_red from "../assets/image/webp/footer_left_red.webp";

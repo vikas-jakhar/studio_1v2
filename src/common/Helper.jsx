@@ -12,14 +12,19 @@ import dino from "../assets/image/webp/dino.webp";
 import cat from "../assets/image/webp/cat.webp";
 import phone from "../assets/image/webp/phone.webp";
 
-export const nav_link = [
-    { heading: "Home", link: "hero" },
-    { heading: "About Us", link: "about" },
-    { heading: "Portfolio", link: "impact" },
-    { heading: "Services", link: "featured" },
-    { heading: "Testimonial", link: "clients" },
-    { heading: "Contact Us", link: "footer" },
+export const Nav_Link = [
+    { heading: "Home", link: "/" },
+    { heading: "About Us", link: "/About" },
+    { heading: "Portfolio", link: "/" },
+    { heading: "Services", link: "/" },
+    { heading: "Testimonial", link: "/" },
+    { heading: "Contact Us", link: "/" },
 ];
+
+export const About_Link = [
+    { heading: "Home", link: "/" },
+    { heading: "About Us", link: "/About" },
+]
 
 export const Button = ({ buttonName, buttonClass }) => {
     return (
