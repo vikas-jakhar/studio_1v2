@@ -11,7 +11,7 @@ const Featured = () => {
         centerMode: true,
         focusOnSelect: true,
         arrows: false,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 5000,
         speed: 1000,
         pauseOnHover: true,
@@ -26,7 +26,6 @@ const Featured = () => {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1.5,
-                    dots: false,
                 }
             },
             {
@@ -45,7 +44,7 @@ const Featured = () => {
                 <Heading HeadingName="Featured Projects" />
                 <Icon icon="Featured_Line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
-            <div className="container mt-20 pt-[18px] pb-11">
+            <div className="container mt-20 pt-[18px] pb-11 relative z-[2]">
                 <div className="mb-px">
                     <Slider {...sliderSettings}>
                         {Projects.map(project => (

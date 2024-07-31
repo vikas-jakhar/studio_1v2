@@ -61,7 +61,7 @@ const Clients = () => {
                     </Slider>
                 </div>
             </div>
-            <img src={red_line} alt="red_line" className='hidden sm:flex absolute -bottom-[13.5%] lg:right-16 right-2 z-[1]' />
+            <img src={red_line} alt="red_line" className='hidden xl:flex absolute -bottom-[13.5%] lg:right-16 right-2 z-[1]' />
         </div>
     )
 }
