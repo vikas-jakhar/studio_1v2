@@ -1,9 +1,9 @@
 import React from 'react'
 import AboutHeader from '../AboutHeader'
 import ImageSlider from '../ImageSlider'
-import Featured from '../Featured'
 import Gaming from '../Gaming'
 import Mission from '../Mission'
+import Featured from '../Featured'
 
 const About = () => {
     return (
@@ -12,7 +12,7 @@ const About = () => {
             <ImageSlider />
             <Gaming />
             <Mission />
-            <Featured />
+            <Featured heading="Meet Our Team" />
         </div>
     )
 }

@@ -8,8 +8,8 @@ import about_layer from "../assets/image/webp/about_layer.webp";
 
 const Gaming = () => {
     return (
-        <div className='md:pt-24 pt-10 sm:pt-16 pb-2 bg-black -mt-px relative' id='about'>
-            <div className="container sm:pt-24 pt-10 relative z-[2]">
+        <div className='md:py-24 pt-10 sm:pt-16 pb-2 bg-black -mt-px relative' id='about'>
+            <div className="container sm:py-24 pt-10 relative z-[2]">
                 <div className=" flex lg:flex-row flex-col items-center lg:justify-between xl:pt-2 gap-10">
                     <div className="max-w-[517px] w-8/12 lg:w-full" data-aos="fade-right" data-aos-duration="1500">
                         <img src={gym} alt="gym" className=' w-full' />
@@ -28,7 +28,7 @@ const Gaming = () => {
                 </div>
             </div>
             <img src={about_top_right} alt="about_top_right" className=' absolute top-[6%] right-0 -translate-y-1/2' />
-            <img src={about_bottom_left} alt="about_bottom_left" className=' absolute left-0 bottom-0 translate-y-1/2' />
+            <img src={about_bottom_left} alt="about_bottom_left" className=' absolute left-0 bottom-0 translate-y-1/2 z-[1]' />
             <img src={red_circle} alt="red_circle" className=' absolute hidden sm:flex top-0 lg:bottom-0 xl:bottom-auto xl:-top-10 left-16 xl:left-0 w-10/12 lg:w-1/2 xl:w-auto z-[1]' />
             <img src={about_layer} alt="about_layer" className=' absolute right-0 bottom-[10%]' />
         </div>
