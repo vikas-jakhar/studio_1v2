@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button, Heading } from "../common/Helper";
 import Icon from '../common/Icon';
 import about_top_right from "../assets/image/webp/about_top_right.webp";
 import gym from "../assets/image/webp/gym.webp";
@@ -8,12 +7,14 @@ import red_line from "../assets/image/webp/red_line.webp";
 import about_bottom_left from "../assets/image/webp/about_bottom_left.webp";
 import red_circle from "../assets/image/webp/red_circle.webp";
 import about_layer from "../assets/image/webp/about_layer.webp";
+import CommonButton from '../common/CommonButton';
+import CommonHeading from '../common/CommonHeading';
 
-const About = () => {
+const Studio = () => {
     return (
         <div className='md:pt-24 pt-10 sm:pt-16 pb-2 bg-black -mt-px relative' id='about'>
             <div className="mt-10 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
-                <Heading HeadingName="About 1v2 Studio" HeadingClass="text-white" />
+                <CommonHeading HeadingName="About 1v2 Studio" />
                 <Icon icon="About_Line" className=' flex justify-center absolute  w-[800px] sm:w-[1250px] md:w-[1440px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
             <div className="container sm:pt-24 pt-10 relative z-[2]">
@@ -28,7 +29,7 @@ const About = () => {
                         <p className='font-poppins text-center lg:text-left font-normal text-lg text-white opacity-70 mt-4 py-0.5'>
                             We are an indie game development studio dedicated to crafting innovative experiences on the Roblox platform. Our passion for creativity and excellence drives us to push the boundaries of what’s possible in gaming.
                         </p>
-                        <Button buttonName="Read More" buttonClass=" mt-10" />
+                        <CommonButton ButtonName="Read More" ButtonClass=" mt-10" />
                     </div>
                 </div>
             </div>
@@ -41,4 +42,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Studio

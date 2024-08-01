@@ -1,15 +1,15 @@
 import React from 'react'
 import Icon from '../common/Icon';
-import { Heading } from "../common/Helper";
 import dino_mission from "../assets/image/webp/dino_mission.png";
 import mission_red_line from "../assets/image/webp/mission_red_line.png";
 import red_line from "../assets/image/webp/red_line.webp";
+import CommonHeading from '../common/CommonHeading';
 
 const Mission = () => {
     return (
-        <div className=' relative bg-black min-h-[992px] pb-2 pt-px -mt-1 bg-mission bg-no-repeat bg-cover'>
+        <div className=' relative bg-black min-h-[992px] pb-2 pt-px -mt-1 bg-mission bg-no-repeat bg-cover z-[2]'>
             <div className="mt-10 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
-                <Heading HeadingName="Mission & Vision" HeadingClass="text-white" />
+                <CommonHeading HeadingName="Mission & Vision" />
                 <Icon icon="About_Line" className=' flex justify-center absolute  w-[800px] sm:w-[1250px] md:w-[1440px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
             <div className="container pt-16 flex justify-center">

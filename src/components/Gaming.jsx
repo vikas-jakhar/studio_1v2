@@ -8,7 +8,7 @@ import about_layer from "../assets/image/webp/about_layer.webp";
 
 const Gaming = () => {
     return (
-        <div className='xl:py-[71px] pt-10 sm:pt-16 pb-2 bg-black -mt-px relative' id='about'>
+        <div className='xl:pt-[75px] xl:pb-[65px] pt-10 sm:pt-16 pb-2 bg-black -mt-px relative' id='about'>
             <div className="container sm:pt-24 xl:pb-24 pt-10 relative z-[2]">
                 <div className=" flex lg:flex-row flex-col items-center lg:justify-between xl:pt-2 gap-10">
                     <div className="max-w-[517px] w-8/12 lg:w-full" data-aos="fade-right" data-aos-duration="1500">

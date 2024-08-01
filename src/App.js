@@ -1,11 +1,11 @@
-import Preloader from './components/Preloader';
-import Scrolltotop from './common/Scrolltotop';
 import Footer from './common/Footer';
 import Navbar from "./common/Navbar";
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/view/Home';
 import About from './components/view/About';
+import ScrollToTop from './common/ScrollToTop';
+import Preloader from './common/Preloader';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path='/About' element={<About />} />
       </Routes>
       <Footer />
-      <Scrolltotop />
+      <ScrollToTop />
       <Preloader />
     </div>
   );

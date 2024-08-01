@@ -1,9 +1,10 @@
 import React from 'react';
-import { Clients_Slider, Heading } from "../common/Helper";
+import { Clients_Slider } from "../common/Helper";
 import Icon from '../common/Icon';
 import Slider from 'react-slick';
 import debbie_red_line from "../assets/image/webp/debbie_red_line.webp";
 import red_line from "../assets/image/webp/red_line.webp";
+import CommonHeading from '../common/CommonHeading';
 
 const Clients = () => {
     const sliderSettings = {
@@ -13,7 +14,7 @@ const Clients = () => {
         centerMode: true,
         focusOnSelect: true,
         arrows: false,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 5000,
         speed: 1000,
         pauseOnHover: true,
@@ -29,7 +30,7 @@ const Clients = () => {
     return (
         <div className=' bg-clients bg-cover bg-no-repeat bg-center bg-black sm:min-h-[737px] pt-24 pb-px xl:py-2 -mt-9 relative' id='clients'>
             <div className="mt-1.5 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
-                <Heading HeadingName="Clients Testimonials" />
+                <CommonHeading HeadingName="Clients Testimonials" />
                 <Icon icon="Clients_Line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
             <div className="container mt-8 sm:pt-24 sm:mt-3 overflow-hidden">

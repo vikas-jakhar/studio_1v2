@@ -1,12 +1,13 @@
 import React from 'react'
 import red_line from "../assets/image/webp/debbie_red_line.webp";
-import { Button, Footer_Icon } from './Helper';
+import { Footer_Icon } from './Helper';
 import logo from "../assets/image/webp/logo.webp";
 import Icon from './Icon';
 import red_line_left from "../assets/image/webp/red_line.webp";
 import footer_right_red from "../assets/image/webp/footer_right_red.webp";
 import footer_left_red from "../assets/image/webp/footer_left_red.webp";
 import blur_img from "../assets/image/webp/blur_img.webp";
+import CommonButton from './CommonButton';
 
 const Footer = () => {
     const current_year = new Date().getFullYear();
@@ -18,7 +19,7 @@ const Footer = () => {
                     <p className=' font-poppins font-normal pb-px text-base sm:text-lg opacity-70 text-white max-w-[554px] text-center mt-3'>Nulla sollicitudin nullam in scelerisque. Dolor neque pulvinar porttitor id eget volutpat faucibus sed. Tellus libero.</p>
                     <form id='emailform' method="get" className=' mt-9 mb-16 sm:mb-0 flex-col gap-5 sm:gap-0 sm:flex-row p-1.5 flex items-center justify-between border-[1px] border-light_gray max-w-[489px] w-full'>
                         <input type="email" className='pl-1.5 max-w-[310px] w-full bg-transparent outline-none font-poppins font-normal text-lg text-white opacity-70' placeholder='Enter your email' required />
-                        <Button buttonName="Submit Now" buttonClass=" absolute sm:relative bottom-10 sm:bottom-auto" />
+                        <CommonButton ButtonName="Submit Now" ButtonClass=" absolute sm:relative bottom-10 sm:bottom-auto" />
                     </form>
                 </div>
                 <img src={logo} alt="logo" className=' mt-12 w-[86px]' />
@@ -29,7 +30,7 @@ const Footer = () => {
                             <Icon icon={index.icon} className="flex" />
                         </a>
                     ))}
-                </div>  
+                </div>
             </div>
             <img src={blur_img} alt="blur_img" className=' absolute top-0 left-1/2 -translate-x-1/2' />
             <p className='w-full font-poppins font-normal text-white opacity-50 text-base text-center pt-[22px] pb-[14px] border-light_gray border-t-2 mb-px'>Copyright@{current_year} All right reserved</p>

@@ -2,21 +2,21 @@ import React from 'react'
 import Clients from '../Clients'
 import Hero from '../Hero'
 import ImageSlider from '../ImageSlider'
-import About from '../About'
 import Featured from '../Featured'
 import Impact from '../Impact'
-import Accordion from '../Accordion'
+import Studio from '../Studio'
+import Faq from '../Faq'
 
 const Home = () => {
     return (
         <div>
             <Hero />
             <ImageSlider />
-            <About />
-            <Featured heading="Featured Projects" />
+            <Studio />
+            <Featured />
             <Impact />
             <Clients />
-            <Accordion />
+            <Faq />
         </div>
     )
 }

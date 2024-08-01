@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import Icon from "../common/Icon";
-import { Heading, accordion_Data } from "../common/Helper";
+import { accordion_Data } from "../common/Helper";
 import faq_left from "../assets/image/webp/faq_left.webp";
 import faq_right from "../assets/image/webp/faq_right.webp";
+import CommonHeading from '../common/CommonHeading';
 
-const Accordion = () => {
+const Faq = () => {
 
     const [openIndex, setOpenIndex] = useState(null);
 
@@ -15,7 +16,7 @@ const Accordion = () => {
     return (
         <div className='relative bg-faq bg-cover bg-no-repeat bg-black pt-px sm:pt-5 pb-4 -mt-1' id='faq'>
             <div className="mt-3 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
-                <Heading HeadingName="FAQ" />
+                <CommonHeading HeadingName="FAQ" />
                 <Icon icon="Faq_Line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
             <div className="container pt-7 sm:pt-20 -mt-1 relative z-[1]">
@@ -50,4 +51,4 @@ const Accordion = () => {
     )
 }
 
-export default Accordion;
+export default Faq;

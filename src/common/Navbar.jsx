@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import logo from "../assets/image/webp/logo.webp";
-import { Nav_Link, Button, Top, Bottom } from './Helper';
+import { Nav_Link, Top, Bottom } from './Helper';
 import nav_top from "../assets/image/webp/nav_top_hover.webp";
 import nav_bottom from "../assets/image/webp/nav_bottom_hover.webp";
 import { Link } from 'react-router-dom';
+import CommonButton from './CommonButton';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -63,10 +64,10 @@ const Navbar = () => {
                                 </div>
                             </div>
                         ))}
-                        <Button buttonName="Get Started" buttonClass="flex sm:hidden" />
+                        <CommonButton ButtonName="Get Started" ButtonClass="flex sm:hidden" />
                     </div>
                     <div className="flex items-center gap-10 cursor-pointer">
-                        <Button buttonName="Get Started" buttonClass="hidden sm:flex" />
+                        <CommonButton ButtonName="Get Started" ButtonClass="hidden sm:flex" />
                         <div onClick={toggleOpen} className="w-7 h-5 relative xl:hidden flex z-20">
                             <span className={`${open ? "top-1/2 rotate-45" : "top-0"} absolute w-full h-1 bg-white transition-slow`}></span>
                             <span className={`${open ? "opacity-0" : "opacity-100"} absolute w-full h-1 bg-white top-1/2 -translate-y-1/2`}></span>

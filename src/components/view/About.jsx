@@ -3,7 +3,7 @@ import AboutHeader from '../AboutHeader'
 import ImageSlider from '../ImageSlider'
 import Gaming from '../Gaming'
 import Mission from '../Mission'
-import Featured from '../Featured'
+import Team from '../Team'
 
 const About = () => {
     return (
@@ -12,7 +12,7 @@ const About = () => {
             <ImageSlider />
             <Gaming />
             <Mission />
-            <Featured heading="Meet Our Team" />
+            <Team />
         </div>
     )
 }

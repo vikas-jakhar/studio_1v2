@@ -1,16 +1,17 @@
 import React from 'react'
 import Icon from '../common/Icon';
-import { Heading, Impact_Data } from "../common/Helper";
+import { Impact_Data } from "../common/Helper";
 import impact_bottom_right from "../assets/image/webp/impact_bottom_right.webp";
 import impact_top_left from "../assets/image/webp/impact_top_left.webp";
 import impact_dino from "../assets/image/webp/impact_dino.webp";
 import red_line from "../assets/image/webp/red_line.webp";
+import CommonHeading from '../common/CommonHeading';
 
 const Impact = () => {
     return (
         <div className=' relative pt-2.5 pb-5 xl:pb-2.5 -mt-5 lg:py-16 xl:pt-2.5 xl:min-h-[746px] bg-black bg-impact bg-cover bg-no-repeat' id='impact'>
             <div className=" relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
-                <Heading HeadingName="Our Impact" />
+                <CommonHeading HeadingName="Our Impact" />
                 <Icon icon="Impact_line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
             <div className="container pt-10 sm:pt-24 relative z-[2]">
