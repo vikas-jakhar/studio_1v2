@@ -1,5 +1,5 @@
 import React from 'react';
-import { Projects } from "../common/Helper";
+import { PROJECT_DATA } from "../common/Helper";
 import Icon from '../common/Icon';
 import Slider from 'react-slick';
 import CommonHeading from '../common/CommonHeading';
@@ -41,13 +41,13 @@ const Featured = () => {
     return (
         <div className='bg-featured bg-no-repeat bg-cover bg-center -mt-1 md:py-20 pt-12 pb-2 bg-black sm:min-h-[872px] overflow-hidden' id='featured'>
             <div className="mt-4 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
-                <CommonHeading HeadingName="Featured Projects" />
+                <CommonHeading HeadingName="Featured PROJECT_DATA" />
                 <Icon icon="Featured_Line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
             </div>
             <div className="container mt-20 pt-[18px] pb-11 relative z-[2]">
                 <div className="mb-px">
                     <Slider {...sliderSettings}>
-                        {Projects.map(project => (
+                        {PROJECT_DATA.map(project => (
                             <div key={project.id} className="slide-item">
                                 <div className="bg-slider bg-100 bg-no-repeat w-full h-full min-h-[461px] p-[20px]" data-aos="zoom-in" data-aos-duration="1500">
                                     <img src={project.imgSrc} alt={project.altText} className='w-full' />

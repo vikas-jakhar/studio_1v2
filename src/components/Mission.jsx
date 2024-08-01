@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon from '../common/Icon';
-import dino_mission from "../assets/image/webp/dino_mission.png";
-import mission_red_line from "../assets/image/webp/mission_red_line.png";
+import dino_mission from "../assets/image/webp/dino_mission.webp";
+import mission_red_line from "../assets/image/webp/mission_red_line.webp";
 import red_line from "../assets/image/webp/red_line.webp";
 import CommonHeading from '../common/CommonHeading';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clients_Slider } from "../common/Helper";
+import { CLIENTS_SLIDER } from "../common/Helper";
 import Icon from '../common/Icon';
 import Slider from 'react-slick';
 import debbie_red_line from "../assets/image/webp/debbie_red_line.webp";
@@ -36,7 +36,7 @@ const Clients = () => {
             <div className="container mt-8 sm:pt-24 sm:mt-3 overflow-hidden">
                 <div className=" xl:pt-3 pt-0.5 pb-24 Clients">
                     <Slider {...sliderSettings}>
-                        {Clients_Slider.map((index) => (
+                        {CLIENTS_SLIDER.map((index) => (
                             <div key={index} className=" px-[14px] sm:px-14" data-aos="zoom-in" data-aos-duration="1500">
                                 <div className=" bg-debbie bg-100 bg-no-repeat flex-col-reverse lg:flex-row items-center min-h-[411px] xl:w-[1041px] w-full py-10 px-5 flex lg:items-start gap-3 justify-center">
                                     <div className="max-w-[621px] flex-col flex items-center lg:items-start w-full">

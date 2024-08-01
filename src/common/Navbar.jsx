@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import logo from "../assets/image/webp/logo.webp";
-import { Nav_Link, Top, Bottom } from './Helper';
+import { NAV_LINKS_LIST, Top, Bottom } from './Helper';
 import nav_top from "../assets/image/webp/nav_top_hover.webp";
 import nav_bottom from "../assets/image/webp/nav_bottom_hover.webp";
 import { Link } from 'react-router-dom';
@@ -55,7 +55,7 @@ const Navbar = () => {
                         <img src={logo} alt="logo" className='w-full' />
                     </a>
                     <div className={`${open ? "left-0" : "-left-full"} flex items-center xl:pl-16 z-10 absolute flex-col w-full h-screen justify-center gap-10 top-0 bg-hero bg-no-repeat bg-cover bg-center xl:relative xl:bg-none xl:flex-row xl:gap-0 xl:h-fit xl:w-fit xl:left-auto transition-slow`}>
-                        {Nav_Link.map((item, index) => (
+                        {NAV_LINKS_LIST.map((item, index) => (
                             <div key={index} className="px-4 relative">
                                 <div className="group">
                                     <img src={nav_top} alt="nav_top" className={`${Top[index] || ""} absolute -top-4 left-0 w-full opacity-0 group-hover:opacity-100 -z-[1] transition-slow`} />

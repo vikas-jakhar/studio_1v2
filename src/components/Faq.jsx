@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Icon from "../common/Icon";
-import { accordion_Data } from "../common/Helper";
+import { ACCORDION_DATA } from "../common/Helper";
 import faq_left from "../assets/image/webp/faq_left.webp";
 import faq_right from "../assets/image/webp/faq_right.webp";
 import CommonHeading from '../common/CommonHeading';
@@ -21,7 +21,7 @@ const Faq = () => {
             </div>
             <div className="container pt-7 sm:pt-20 -mt-1 relative z-[1]">
                 <div className="py-1 flex flex-col items-center">
-                    {accordion_Data.map((item, index) => (
+                    {ACCORDION_DATA.map((item, index) => (
                         <div key={index} className="w-full flex py-2 sm:py-0 sm:mt-6 justify-center relative duration-300 ease-linear" data-aos="zoom-in-up" data-aos-duration="1500">
                             <div className={`${openIndex === index ? "border-sky_blue bg-[linear-gradient(0deg,_#9E0000_-14.1%,_#FF1212_123.08%)] shadow-[-15.4px_15.4px_15.4px_0px_#CCCCCC0F_inset,-7.7px_7.7px_7.7px_0px_#FFFFFF0F_inset,_15.4px_-15.4px_15.4px_0px_#FFFFFF0F_inset,_7.7px_-7.7px_7.7px_0px_#CCCCCC0F_inset] h-auto" : "border-light_brown backdrop-blur-xl"} accordion max-w-[884px] w-full border-[1px] duration-300 ease-linear overflow-hidden`}>
                                 <div

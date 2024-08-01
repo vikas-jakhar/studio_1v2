@@ -1,6 +1,6 @@
 import React from 'react'
 import red_line from "../assets/image/webp/debbie_red_line.webp";
-import { Footer_Icon } from './Helper';
+import { SOCIAL_ICONS } from './Helper';
 import logo from "../assets/image/webp/logo.webp";
 import Icon from './Icon';
 import red_line_left from "../assets/image/webp/red_line.webp";
@@ -25,7 +25,7 @@ const Footer = () => {
                 <img src={logo} alt="logo" className=' mt-12 w-[86px]' />
                 <p className='mt-5 font-poppins font-normal text-white text-lg opacity-70 text-center max-w-[538px] w-full'>Nulla sollicitudin nullam in scelerisque. Dolor neque pulvinar porttitor id eget volutpat faucibus sed. Tellus libero.</p>
                 <div className="flex items-center mt-4 gap-5 pb-px mb-0.5">
-                    {Footer_Icon.map((index) => (
+                    {SOCIAL_ICONS.map((index) => (
                         <a key={index} href={index.link} className=' p-2 w-[43px] h-[43px] grid place-items-center bg-red rounded-full border-sky_blue border-2 duration-300 ease-linear hover:shadow-[0px_0px_0px_2px_white,_0px_0px_4px_4px_blue]'>
                             <Icon icon={index.icon} className="flex" />
                         </a>

@@ -20,8 +20,8 @@ module.exports = {
         'faq': "url(./assets/image/webp/faq_bg.webp)",
         'footer': "url(./assets/image/webp/footer_bg.webp)",
         'newsletter': "url(./assets/image/webp/newsletter_bg.webp)",
-        'mission': "url(./assets/image/webp/mission_bg.png)",
-        'mission_border': "url(./assets/image/webp/mission_border.png)",
+        'mission': "url(./assets/image/webp/mission_bg.webp)",
+        'mission_border': "url(./assets/image/webp/mission_border.webp)",
       },
       container: {
         center: true,

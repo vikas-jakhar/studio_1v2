@@ -1,5 +1,5 @@
 import React from 'react';
-import { Team_Data } from "../common/Helper";
+import { TEAM_DATA } from "../common/Helper";
 import Icon from '../common/Icon';
 import Slider from 'react-slick';
 import CommonHeading from '../common/CommonHeading';
@@ -47,7 +47,7 @@ const Team = () => {
             <div className="container mt-20 pt-[18px] pb-11 relative z-[2]">
                 <div className="mb-px">
                     <Slider {...sliderSettings}>
-                        {Team_Data.map(project => (
+                        {TEAM_DATA.map(project => (
                             <div key={project.id} className="slide-item">
                                 <div className="bg-slider bg-100 bg-no-repeat w-full h-full min-h-[461px] p-[20px]" data-aos="zoom-in" data-aos-duration="1500">
                                     <img src={project.imgSrc} alt={project.altText} className='w-full' />

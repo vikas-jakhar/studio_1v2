@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Images, Widths } from "../common/Helper";
+import { IMAGE_SLIDER, Widths } from "../common/Helper";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -54,7 +54,7 @@ const ImageSlider = () => {
         <div className='bg-black pt-6 -mt-1 relative z-[1]'>
             <div className=" mt-1 py-9 bg-light_black imageslider">
                 <Slider {...sliderSettings}>
-                    {Images.map((image, index) => (
+                    {IMAGE_SLIDER.map((image, index) => (
                         <div key={index} className='flex justify-center items-center h-full'>
                             <div className="flex h-[88px] items-center justify-center" data-aos="zoom-in" data-aos-duration="1500">
                                 <img
