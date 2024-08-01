@@ -51,10 +51,9 @@ const Team = () => {
                             <div key={project.id} className="slide-item">
                                 <div className="bg-slider bg-100 bg-no-repeat w-full h-full min-h-[461px] p-[20px]" data-aos="zoom-in" data-aos-duration="1500">
                                     <img src={project.imgSrc} alt={project.altText} className='w-full' />
-                                    <p className='mt-4 mb-3 font-orbitron font-bold text-xl sm:text-2xl text-white tracking-wide'>{project.heading}</p>
-                                    <p className=' font-poppins font-normal text-base sm:text-lg text-white opacity-70'>
-                                        Embark on an epic adventure in Dino Island, where you can explore a prehistoric world filled with dinosaurs and hidden treasures.
-                                    </p>
+                                    <p className='mt-4 mb-1.5 font-orbitron font-bold text-xl sm:text-2xl text-white tracking-wide'>{project.heading}</p>
+                                    <p className='font-poppins mb-3 font-normal text-lg text-sky_blue opacity-70'>{project.blue_text}</p>
+                                    <p className=' font-poppins font-normal text-base sm:text-lg text-white opacity-70'>{project.text}</p>
                                 </div>
                             </div>
                         ))}

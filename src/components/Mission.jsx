@@ -14,7 +14,7 @@ const Mission = () => {
             </div>
             <div className="container pt-16 flex justify-center">
                 <div className="max-w-[1041px] min-h-[700px] w-full bg-mission_border bg-100 bg-no-repeat mt-2.5 py-[42px] px-4 flex flex-col items-center">
-                    <div className="max-w-[927px] w-full flex flex-col md:flex-row items-center md:items-start md:justify-between gap-5">
+                    <div className="max-w-[927px] w-full flex flex-col md:flex-row items-center md:items-start md:justify-between gap-5" data-aos="fade-up" data-aos-duration="1500">
                         <div className="max-w-[546px] w-full flex flex-col md:items-start items-center">
                             <div className=" relative px-6">
                                 <img src={mission_red_line} alt="mission_red_line" className=' absolute top-1 left-1 w-full' />
@@ -24,7 +24,7 @@ const Mission = () => {
                         </div>
                         <img src={dino_mission} alt="dino_mission" className='max-w-[289px] w-full' />
                     </div>
-                    <div className="max-w-[927px] w-full flex items-start justify-between mt-8 pt-0.5 gap-5 lg:gap-10">
+                    <div className="max-w-[927px] w-full flex items-start justify-between mt-8 pt-0.5 gap-5 lg:gap-10" data-aos="fade-up" data-aos-duration="1500">
                         <img src={dino_mission} alt="dino_mission" className='max-w-[289px] w-full hidden md:flex' />
                         <div className="w-full flex flex-col md:items-start items-center">
                             <div className=" relative px-6">
