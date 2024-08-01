@@ -10,7 +10,7 @@ import blur_img from "../assets/image/webp/blur_img.webp";
 import CommonButton from './CommonButton';
 
 const Footer = () => {
-    const current_year = new Date().getFullYear();
+    const CURRENT_YEAR = new Date().getFullYear();
     return (
         <div className='bg-footer bg-cover bg-no-repeat sm:pt-10 md:pt-20 py-2 -mt-1 bg-black relative' id='footer'>
             <div className="container mt-12 pt-1.5 flex-col flex items-center pb-10 relative z-[1]">
@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
             </div>
             <img src={blur_img} alt="blur_img" className=' absolute top-0 left-1/2 -translate-x-1/2' />
-            <p className='w-full font-poppins font-normal text-white opacity-50 text-base text-center pt-[22px] pb-[14px] border-light_gray border-t-2 mb-px'>Copyright@{current_year} All right reserved</p>
+            <p className='w-full font-poppins font-normal text-white opacity-50 text-base text-center pt-[22px] pb-[14px] border-light_gray border-t-2 mb-px'>Copyright@{CURRENT_YEAR} All right reserved</p>
             <img src={red_line_left} alt="red_line_left" className=' absolute -top-12 lg:left-16 left-2 hidden xl:flex' />
             <img src={red_line_left} alt="red_line" className=' absolute bottom-[12%] lg:right-16 right-2 z-[1] hidden xl:flex' />
             <img src={footer_right_red} alt="footer_right_red" className='absolute bottom-0 right-0' />

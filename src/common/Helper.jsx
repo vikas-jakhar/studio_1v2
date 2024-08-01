@@ -13,54 +13,27 @@ import cat from "../assets/image/webp/cat.webp";
 import phone from "../assets/image/webp/phone.webp";
 
 export const NAV_LINKS_LIST = [
-    { heading: "Home", link: "/" },
-    { heading: "About Us", link: "/About" },
-    { heading: "Portfolio", link: "/" },
-    { heading: "Services", link: "/" },
-    { heading: "Testimonial", link: "/" },
-    { heading: "Contact Us", link: "/" },
+    { heading: "Home", link: "/", hover_top: "group-hover:-top-[3px]", hover_bottom:"group-hover:-bottom-[3px]" },
+    { heading: "About Us", link: "/About", hover_top: "group-hover:-top-[6px]", hover_bottom:"group-hover:-bottom-[6px]" },
+    { heading: "Portfolio", link: "/", hover_top: "group-hover:-top-[5px]", hover_bottom:"group-hover:-bottom-[5px]" },
+    { heading: "Services", link: "/", hover_top: "group-hover:-top-[5px]", hover_bottom:"group-hover:-bottom-[5px]" },
+    { heading: "Testimonial", link: "/", hover_top: "group-hover:-top-[9px]", hover_bottom:"group-hover:-bottom-[9px]" },
+    { heading: "Contact Us", link: "/", hover_top: "group-hover:-top-[9px]", hover_bottom:"group-hover:-bottom-[9px]" },
 ];
 
 export const NAV_ABOUT_LINK = [
-    { heading: "Home", link: "/" },
-    { heading: "About Us", link: "/About" },
+    { heading: "Home", link: "/", hover_top: "group-hover:-top-[3px]", hover_bottom: "group-hover:-bottom-[3px]" },
+    { heading: "About Us", link: "/About", hover_top: "group-hover:-top-[6px]", hover_bottom: "group-hover:-bottom-[6px]" },
 ]
 
 export const IMAGE_SLIDER = [
-    honair,
-    roblox,
-    lava,
-    dino,
-    cat,
-    phone,
+    { image: honair, width: "w-[151px]" },
+    { image: roblox, width: "w-[159px]" },
+    { image: lava, width: "w-[234px]" },
+    { image: dino, width: "w-[234px]" },
+    { image: cat, width: "w-[225px]" },
+    { image: phone, width: "w-[234px]" },
 ];
-
-export const Widths = {
-    0: "w-[151px]",
-    1: "w-[159px]",
-    2: "w-[234px]",
-    3: "w-[234px]",
-    4: "w-[225px]",
-    5: "w-[234px]",
-};
-
-export const Top = {
-    0: "group-hover:-top-[3px]",
-    1: "group-hover:-top-[6px]",
-    2: "group-hover:-top-[5px]",
-    3: "group-hover:-top-[5px]",
-    4: "group-hover:-top-[9px]",
-    5: "group-hover:-top-[9px]",
-}
-
-export const Bottom = {
-    0: "group-hover:-bottom-[3px]",
-    1: "group-hover:-bottom-[6px]",
-    2: "group-hover:-bottom-[5px]",
-    3: "group-hover:-bottom-[5px]",
-    4: "group-hover:-bottom-[9px]",
-    5: "group-hover:-bottom-[9px]",
-}
 
 export const PROJECT_DATA = [
     { id: 1, imgSrc: lava_land, altText: 'lava_land', heading: "Lava Land", blue_text: "300+", visits: "800+", text: "Embark on thrilling adventures in a volcanic world, featuring unique challenges and excitement, crafted exclusively for Roblox players." },
@@ -69,7 +42,7 @@ export const PROJECT_DATA = [
     { id: 4, imgSrc: cat_washing, altText: 'cat_washing', heading: "Cat Washing Tycoon", blue_text: "700+", visits: "1200+", text: "Dive into the adorable world of cat care! Build and manage your own cat washing business, upgrade your facilities. " },
     { id: 5, imgSrc: fireplace, altText: 'fireplace', heading: "Fireplace", blue_text: "800+", visits: "1000+", text: "Experience cozy and adventurous gameplay around a virtual hearth, blending relaxation and excitement uniquely on Roblox." },
     { id: 6, imgSrc: phone_factory, altText: 'phone_factory', heading: "Phone Factory", blue_text: "300+", visits: "800+", text: "Phone Factory: Dive into the exciting world of manufacturing in this Roblox game." },
-]; 
+];
 
 export const TEAM_DATA = [
     { id: 1, imgSrc: lava_land, altText: 'lava_land', heading: "Lava Land", blue_text: "300+", visits: "800+", text: "Embark on thrilling adventures in a volcanic world, featuring unique challenges and excitement, crafted exclusively for Roblox players." },
