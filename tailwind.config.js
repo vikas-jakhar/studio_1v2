@@ -42,9 +42,6 @@ module.exports = {
         'light_brown': "#5A5555",
         'light_gray': "#FFFFFF45",
       },
-      borderColor: {
-
-      },
       fontSize: {
         '42': "42px",
         '38': "38px",
