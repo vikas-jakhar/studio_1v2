@@ -28,7 +28,7 @@ const Clients = () => {
         ]
     };
     return (
-        <div className=' bg-clients bg-cover bg-no-repeat bg-center bg-black sm:min-h-[737px] pt-24 pb-px xl:py-2 -mt-9 relative' id='clients'>
+        <div className='bg-clients bg-cover bg-no-repeat bg-center bg-black sm:min-h-[737px] pt-24 pb-px xl:py-2 -mt-9 relative' id='clients'>
             <div className="mt-1.5 relative z-[2]" data-aos="fade-up" data-aos-duration="1500">
                 <CommonHeading HeadingName="Clients Testimonials" />
                 <Icon icon="Clients_Line" className='flex justify-center absolute w-[800px] sm:w-[1250px] md:w-[1540px] left-1/2 -translate-x-1/2 -bottom-3 sm:-bottom-6 lg:-bottom-3 xl:-bottom-6' />
@@ -41,8 +41,8 @@ const Clients = () => {
                                 <div className=" bg-debbie bg-100 bg-no-repeat flex-col-reverse lg:flex-row items-center min-h-[411px] xl:w-[1041px] w-full py-10 px-5 flex lg:items-start gap-3 justify-center">
                                     <div className="max-w-[621px] flex-col flex items-center lg:items-start w-full">
                                         <div className=" relative py-[0.5px] px-5 lg:px-0 lg:pr-6">
-                                            <img src={debbie_red_line} alt="debbie_red_line" className=' absolute top-0 lg:-left-4 -left-1 w-full' />
-                                            <p className=' text-white text-nowrap relative z-[1] font-orbitron font-bold xl:text-42 text-xl sm:text-4xl tracking-wide xl:leading-[54px]'> {index.heading}</p>
+                                            <img src={debbie_red_line} alt="debbie_red_line" className='absolute top-0 lg:-left-4 -left-1 w-full' />
+                                            <p className='text-white text-nowrap relative z-[1] font-orbitron font-bold xl:text-42 text-xl sm:text-4xl tracking-wide xl:leading-[54px]'> {index.heading}</p>
                                         </div>
                                         <p className='mt-7 font-poppins font-normal text-center lg:text-left text-sm sm:text-lg xl:text-2xl xl:leading-9 text-white opacity-70'>
                                             {index.text}
@@ -55,7 +55,7 @@ const Clients = () => {
                                             <Icon icon="Star" />
                                         </div>
                                     </div>
-                                    <img src={index.image} alt="debbie" className=' lg:w-[40%] w-10/12 xl:w-full max-w-[289px]' />
+                                    <img src={index.image} alt="debbie" className='lg:w-[40%] w-10/12 xl:w-full max-w-[289px]' />
                                 </div>
                             </div>
                         ))}

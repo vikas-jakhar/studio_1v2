@@ -53,7 +53,7 @@ const Team = () => {
                                     <img src={project.imgSrc} alt={project.altText} className='w-full' />
                                     <p className='mt-4 mb-1.5 font-orbitron font-bold text-xl sm:text-2xl text-white tracking-wide'>{project.heading}</p>
                                     <p className='font-poppins mb-3 font-normal text-lg text-sky_blue opacity-70'>{project.blue_text}</p>
-                                    <p className=' font-poppins font-normal text-base sm:text-lg text-white opacity-70'>{project.text}</p>
+                                    <p className='font-poppins font-normal text-base sm:text-lg text-white opacity-70'>{project.text}</p>
                                 </div>
                             </div>
                         ))}

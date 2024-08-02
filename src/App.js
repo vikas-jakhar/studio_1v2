@@ -9,7 +9,7 @@ import Preloader from './common/Preloader';
 
 function App() {
   return (
-    <div className=' max-w-[1920px] mx-auto overflow-hidden'>
+    <div className='max-w-[1920px] mx-auto overflow-hidden'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />

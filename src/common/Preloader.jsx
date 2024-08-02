@@ -18,9 +18,9 @@ const Preloader = () => {
 
     if (!visible) return null;
     return (
-        <section className=' min-h-screen w-full bg-black z-30 fixed top-0 left-0 grid place-items-center'>
+        <section className='min-h-screen w-full bg-black z-30 fixed top-0 left-0 grid place-items-center'>
             <div className=" animate-bounce text-white text-2xl font-poppins font-bold">
-                <img src={preloader_img} alt="preloader_img" className=' max-w-[400px] w-full' />
+                <img src={preloader_img} alt="preloader_img" className='max-w-[400px] w-full' />
             </div>
         </section>
     )

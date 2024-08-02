@@ -58,7 +58,7 @@ const Featured = () => {
                                         <span className='sm:mr-1 font-normal text-white opacity-70'>Visits</span>
                                     </div>
                                     <p className='mt-4 mb-3 font-orbitron font-bold text-xl sm:text-2xl text-white tracking-wide'>{project.heading}</p>
-                                    <p className=' font-poppins font-normal text-base sm:text-lg text-white opacity-70'>
+                                    <p className='font-poppins font-normal text-base sm:text-lg text-white opacity-70'>
                                         {project.text}
                                     </p>
                                 </div>

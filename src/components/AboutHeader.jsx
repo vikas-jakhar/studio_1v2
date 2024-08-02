@@ -8,7 +8,7 @@ import { NAV_ABOUT_LINK } from '../common/Helper';
 
 const AboutHeader = () => {
     return (
-        <div className=' bg-hero bg-cover bg-no-repeat bg-center pt-1 pb-6 min-h-[70vh] xl:min-h-[636px] flex items-end relative' id='hero'>
+        <div className='bg-hero bg-cover bg-no-repeat bg-center pt-1 pb-6 min-h-[70vh] xl:min-h-[636px] flex items-end relative' id='hero'>
             <h2 className='font-orbitron absolute top-[48%] left-1/2 -translate-y-1/2 -translate-x-1/2 font-bold text-white text-4xl sm:text-5xl xl:text-7xl xl:leading-[93.6px] text-center md:text-left tracking-wide text-nowrap'>About us</h2>
             <div className=" relative w-full mb-[43px] left-0">
                 <div className=" relative z-[2] gap-2 xl:mb-0 pb-3 lg:pb-3 flex justify-center items-center">
@@ -25,7 +25,7 @@ const AboutHeader = () => {
                     <Icon icon="Right_Arrow" className=" absolute left-[49.4%] -translate-x-1/2" />
                 </div>
             </div>
-            <img src={red_line} alt="red_line" className=' absolute bottom-[85px] hidden xl:flex lg:left-16 left-2' />
+            <img src={red_line} alt="red_line" className='absolute bottom-[85px] hidden xl:flex lg:left-16 left-2' />
         </div>
     )
 }
